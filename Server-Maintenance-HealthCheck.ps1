@@ -10,17 +10,14 @@
     Physical (hands-on) checks are intentionally omitted: cabling, bezel LEDs, console/video,
     drive-bay indicators. Remote-readable hardware health is attempted where Windows exposes it
     (SMART via WMI, physical disk health, Hyper-V status, etc.).
-	
-.AUTHOR
-    Mike Perez
-	
-.GITHUB
-	https://github.com/mik3p3r3z
-
-.CREATED
-    2026-08-2026
 
 .NOTES
+	Author: Mike Perez
+	Created: 2026-08-06
+	GitHub: https://github.com/mik3p3r3z
+	Version: 1.0
+	License: GNU GPL v3
+	
     Run from an elevated PowerShell console for full coverage.
     Requires PowerShell 3.0+ (Windows Server 2008 R2 SP1+ recommended, 2012 R2+ ideal).
     The script is read-only; it makes no configuration changes.
